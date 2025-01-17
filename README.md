@@ -119,6 +119,20 @@ JWT qa: <token_generado_para_qa>
 JWT sb: <token_generado_para_sb>
 ```
 
+## Nota adicional
+Este es el payload usado para firmar el token:
+
+```{
+     iss: "PRODUCTORCONSUMIDOR",
+     sum: app_id[i],
+     aud: "APIGateway_LAN",
+     exp: exp,
+     iat: iat,
+}
+```
+
+Cambiarlo según sea requerido en el archivo tokenGenerator.js(nombre variable `jwtPayload`)
+
 ## Fuentes  
 
 Documentación de JSON Web Tokens (JWT):
