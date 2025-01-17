@@ -1,11 +1,18 @@
 {
   "name": "token-generator",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is a node.js script used to create JWT RSA256 tokens",
   "main": "tokenGenerator.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "JWT",
+    "RSA256",
+    "JS",
+    "Node.js",
+    "JsonWebToken"
+  ],
   "author": "Carlos Daniel Rivera Rangel",
   "license": "ISC",
   "dependencies": {
