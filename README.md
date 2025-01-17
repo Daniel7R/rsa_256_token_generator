@@ -113,9 +113,11 @@ La salida debería mostrar los tokens JWT generados para cada ambiente (dev, qa,
 ```generate_token```
 
 Salida esperada:
+
 ```JWT dev: <token_generado_para_dev>
 JWT qa: <token_generado_para_qa>
-JWT sb: <token_generado_para_sb>```
+JWT sb: <token_generado_para_sb>
+```
 
 ## Fuentes  
 
